@@ -1,4 +1,4 @@
-# BIMpact Public Web Mirror
+﻿# BIMpact Public Web Mirror
 
 This repository is the public deployment mirror for the BIMpact marketing site.
 

@@ -13,9 +13,10 @@ function maturityLabelClass(maturity: string | undefined) {
 export default async function ContentPage({
   params
 }: {
-  params: { slug: string[] };
+  params: Promise<{ slug: string[] }>;
 }) {
-  const key = params.slug.join("/");
+  const { slug } = await params;
+  const key = slug.join("/");
   const content = await renderMarkdownForSlug(key);
   if (!content) return notFound();
 

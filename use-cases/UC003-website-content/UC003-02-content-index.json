@@ -1,107 +1,107 @@
-{
-  "version": 1,
-  "statuses": {
-    "wip": "Work in progress, not publishable",
-    "shared": "Shared for review or circulation, not publishable",
-    "published": "Approved for public mirror and deployment",
-    "archived": "Kept for reference, excluded from publishing"
-  },
-  "entries": [
-    {
-      "slug": "",
-      "route": "/",
-      "sourceFile": "homepage.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "how-it-works",
-      "route": "/how-it-works",
-      "sourceFile": "how-it-works.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "use-cases",
-      "route": "/use-cases",
-      "sourceFile": "use-cases-page.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "domains",
-      "route": "/domains",
-      "sourceFile": "domains.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "domains/bim",
-      "route": "/domains/bim",
-      "sourceFile": "bim-domain.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "domains/bi",
-      "route": "/domains/bi",
-      "sourceFile": "bi-domain.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "emerging"
-    },
-    {
-      "slug": "domains/microsoft-ecosystem",
-      "route": "/domains/microsoft-ecosystem",
-      "sourceFile": "microsoft-ecosystem-domain.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "emerging"
-    },
-    {
-      "slug": "domains/public-administration",
-      "route": "/domains/public-administration",
-      "sourceFile": "public-administration-domain.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "emerging"
-    },
-    {
-      "slug": "domains/maker-lab",
-      "route": "/domains/maker-lab",
-      "sourceFile": "maker-lab-domain.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "exploratory"
-    },
-    {
-      "slug": "contact",
-      "route": "/contact",
-      "sourceFile": "contact.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "privacy",
-      "route": "/privacy",
-      "sourceFile": "privacy.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    },
-    {
-      "slug": "terms",
-      "route": "/terms",
-      "sourceFile": "terms.md",
-      "status": "published",
-      "publish": true,
-      "maturity": "active"
-    }
-  ]
+﻿{
+    "version":  1,
+    "statuses":  {
+                     "wip":  "Work in progress, not publishable",
+                     "shared":  "Shared for review or circulation, not publishable",
+                     "published":  "Approved for public mirror and deployment",
+                     "archived":  "Kept for reference, excluded from publishing"
+                 },
+    "entries":  [
+                    {
+                        "slug":  "",
+                        "route":  "/",
+                        "sourceFile":  "homepage.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "how-it-works",
+                        "route":  "/how-it-works",
+                        "sourceFile":  "how-it-works.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "use-cases",
+                        "route":  "/use-cases",
+                        "sourceFile":  "use-cases-page.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "domains",
+                        "route":  "/domains",
+                        "sourceFile":  "domains.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "domains/bim",
+                        "route":  "/domains/bim",
+                        "sourceFile":  "bim-domain.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "domains/bi",
+                        "route":  "/domains/bi",
+                        "sourceFile":  "bi-domain.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "emerging"
+                    },
+                    {
+                        "slug":  "domains/microsoft-ecosystem",
+                        "route":  "/domains/microsoft-ecosystem",
+                        "sourceFile":  "microsoft-ecosystem-domain.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "emerging"
+                    },
+                    {
+                        "slug":  "domains/public-administration",
+                        "route":  "/domains/public-administration",
+                        "sourceFile":  "public-administration-domain.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "emerging"
+                    },
+                    {
+                        "slug":  "domains/maker-lab",
+                        "route":  "/domains/maker-lab",
+                        "sourceFile":  "maker-lab-domain.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "exploratory"
+                    },
+                    {
+                        "slug":  "contact",
+                        "route":  "/contact",
+                        "sourceFile":  "contact.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "privacy",
+                        "route":  "/privacy",
+                        "sourceFile":  "privacy.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    },
+                    {
+                        "slug":  "terms",
+                        "route":  "/terms",
+                        "sourceFile":  "terms.md",
+                        "status":  "published",
+                        "publish":  true,
+                        "maturity":  "active"
+                    }
+                ]
 }

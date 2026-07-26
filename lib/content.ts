@@ -23,10 +23,14 @@ type ContentIndexFile = {
   entries: ContentIndexEntry[];
 };
 
+function stripBom(value: string) {
+  return value.charCodeAt(0) === 0xfeff ? value.slice(1) : value;
+}
+
 function loadContentIndex(): ContentIndexFile {
   const fullPath = path.join(websiteContentRoot(), "UC003-02-content-index.json");
   const raw = fs.readFileSync(fullPath, "utf8");
-  return JSON.parse(raw) as ContentIndexFile;
+  return JSON.parse(stripBom(raw)) as ContentIndexFile;
 }
 
 export const routeEntries: RouteEntry[] = loadContentIndex().entries
