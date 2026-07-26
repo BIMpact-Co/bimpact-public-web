@@ -3,3 +3,14 @@ node_modules/
 dist/
 out/
 .DS_Store
+
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+
+.env*
+!.env.example
