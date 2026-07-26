@@ -1,0 +1,104 @@
+:root {
+  --bg: #f4f6f2;
+  --panel: #ffffff;
+  --text: #1f2a22;
+  --muted: #4f6355;
+  --line: #d6ddd7;
+  --accent: #1d6e4f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Aptos", "Helvetica Neue", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at 10% 10%, #e6efe7 0, #f4f6f2 38%, #eef2ef 100%);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.nav {
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--panel) 90%, transparent);
+  backdrop-filter: blur(6px);
+}
+
+.nav-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 2rem;
+  color: var(--muted);
+}
+
+.brand {
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.2rem;
+  box-shadow: 0 8px 30px rgba(12, 24, 18, 0.06);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  line-height: 1.2;
+}
+
+.markdown p,
+.markdown li {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.badge {
+  display: inline-block;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--line);
+  margin-left: 0.45rem;
+}
+
+.badge.active {
+  color: #12563d;
+  background: #d8f1e6;
+}
+
+.badge.emerging {
+  color: #7a5d00;
+  background: #fff2c4;
+}
+
+.badge.exploratory {
+  color: #5e3a86;
+  background: #efdcff;
+}
